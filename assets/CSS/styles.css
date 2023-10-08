@@ -1,0 +1,111 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: black;
+    font-family: "Noto Sans";
+    color: white;
+}
+
+a {
+    color: yellow;
+}
+
+header {
+    text-align: center;
+}
+
+h1, .cinema-name {
+    font-family: Tourney;
+}
+
+header img {
+    width: 5rem;
+    height: auto;
+}
+
+header p {
+    font-style: italic;
+}
+
+.season-banner {
+    margin-top: 5vh;
+    text-align: center;
+    font-family: "Bowlby One SC";
+}
+
+.season-name {
+    font-size: large;
+    font-style: italic;
+}
+
+.season-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.season-image img {
+    border-style: double;
+    border-color: white;
+    border-width: 6px;
+    width: 10rem;
+}
+
+.intro {
+    display: grid;
+    place-content: center;
+}
+
+.intro p {
+    max-width: 100ch;
+}
+
+.container {
+    --min: 50ch;
+    --gap: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+}
+
+.container > * {
+    flex: 1 1 var(--min);
+}
+
+.item {
+    margin-bottom: 10px;
+    border-style: double;
+    border-color: white;
+    border-width: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item-content {
+    display: flex;
+}
+
+.item img {
+    width: 10rem;
+    border-style: double;
+    border-color: white;
+    border-width: 6px;
+    padding: 2px;
+}
+
+.item-text {
+    margin-left: 1vw;
+    margin-bottom: 5px;
+    padding-left: 1rem;
+    border-style: double;
+    border-color: white;
+    border-width: 6px;
+}
+
+.item-text > p > a:first-child, .footnote {
+    text-decoration: none;
+}
